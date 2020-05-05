@@ -83,7 +83,7 @@ def draw_tree(x, y, line_length, line_thickness, additional_rot, n, num_rec_call
               n, 
               num_rec_calls + 1)
 
-def clear(win):
+def clear():
     for item in win.items[:]:
         item.undraw()
 
